@@ -1,0 +1,34 @@
+{
+    "name": "rebzden/toast",
+    "description": "Show toast message with single line of code!",
+    "keywords": [
+        "rebzden",
+        "yii",
+        "yii2",
+        "yii 2",
+        "widget",
+        "toast",
+        "notification",
+        "ajax"
+    ],
+    "type": "yii2-extension",
+    "license": "BSD-3",
+    "authors": [
+        {
+            "name": "Kacper Brezdeń",
+            "email": "kacperbrezden@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "yiisoft/yii2": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "rebzden\\toast\\": "src"
+        }
+    }
+}
